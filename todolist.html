@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List (AJAX)</title>
+    <link rel="stylesheet" href="/style/todolist.css">
+    <script src="/script/jquery.js"></script>
+    <script src="/script/todolist.js"></script>
+</head>
+
+<body >
+    <div class="container">
+        <form class="newTask-container" autocomplete="off">
+            <input type="text" class="input-field" name="name" id="name" placeholder="nombre de la tarea">
+            <div class="checkbox">
+                <input type="checkbox" id="completed" value="0" />
+                <label for="completed">Hecha</label>
+            </div>
+            <button type="button" id="btn">&#10133;</button>
+        </form>
+    
+        <div class="taskList-container">
+            <table id="Tabla">
+                <tr>
+                    <th>#</th>
+                    <th>Tareas</th>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+
+</html>
